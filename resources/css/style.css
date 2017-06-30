@@ -9,11 +9,12 @@ html {
   max-width: 960px;
 }
 
+h1 h4 {
+font-weight: bold;
+}
+
 /* Company header */
 
-.company {
-  background-color: black;
-}
 
 .company span {
   color: white;
@@ -27,5 +28,49 @@ html {
 .company .container {
   display: flex;
   align-items: center;
+  background-color: black;
+}
+
+/* header */
+
+.header .container {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9em;
+}
+
+.headline h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navigatie .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: firebrick;
+  color: white;
+}
+
+.navigatie span {
+  display: inline-block;
+  padding: 0.75rem;
 
 }
