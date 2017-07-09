@@ -9,6 +9,7 @@ html {
   max-width: 960px;
 }
 
+
 h1 h4 {
 font-weight: bold;
 }
@@ -68,6 +69,10 @@ font-weight: bold;
   background-color: firebrick;
   color: white;
   padding: 0.75rem 0;
+}
+
+.container-mobi {
+  display: none;
 }
 
 .navigatie span {
@@ -134,8 +139,6 @@ font-weight: bold;
   margin-top: 0.25rem;
 }
 
-
-
 /* footer */
 
 footer {
@@ -145,4 +148,67 @@ footer {
   display: flex;
   align-items: center;
   text-align: left;
+}
+
+
+/*media query*/
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 48%;
+  }
+
+  .navigatie .container {
+    display: none;
+  }
+
+
+@media only screen and (max-width: 470px) {
+
+.headline h4{
+  font-size: 0.77rem;
+}
+
+.headline h1 {
+  font-size: 1rem;
+}
+
+.headline {
+  top: 10em;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.header .container {
+  height: 15rem;
+}
+
+.navigatie-mobi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: firebrick;
+  color: white;
+  padding: 0.75rem 0;
+}
+
+.product{
+  width: 90%;
+}
+
+.business-info {
+  display: block;
+}
+
+.info-box {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.footer {
+  text-align: center;
+
+}
+
+
 }
