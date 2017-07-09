@@ -67,10 +67,69 @@ font-weight: bold;
   justify-content: space-between;
   background-color: firebrick;
   color: white;
+  padding: 0.75rem 0;
 }
 
 .navigatie span {
   display: inline-block;
   padding: 0.75rem;
+
+}
+
+/* products */
+
+.products {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+  max-width: 8em;
+}
+
+/* company */
+
+.value{
+  color: black;
+}
+
+.info {
+
+  width: 30%;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em 2em;
+}
+
+
+/* footer */
+
+footer {
+  height: 5rem;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 5em 0;
+  margin-top: 4em;
 
 }
